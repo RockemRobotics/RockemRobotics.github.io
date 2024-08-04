@@ -20,6 +20,19 @@
 				<p>I'm best known as that one guy who is <em>Clearly Not Elmo</em>. Don't trust me. <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
+		<p>Would you care for a tickybox?
+            		<script>
+              			function toggle () {
+              				if (document.getElementById("tickybox").checked) {
+             					document.getElementById("ticky_text").innerHTML="Yay! Tickybox";
+              				} else {
+              					document.getElementById("ticky_text").innerHTML=":-(";
+              				}
+              			}
+            		</script>
+           		<input id="tickybox" type="checkbox" onclick="toggle()" />
+            		<span id="ticky_text"></span>
+          	</p>
 		<footer>
     		<ul>
         		<li><a href="mailto:test@gmail.com">email</a></li>
