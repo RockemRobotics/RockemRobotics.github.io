@@ -18,24 +18,10 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Robo</h1>
-				<h2>(aka RockemRobotics)</h2>
-				<p>I'm best known as that one guy who is <em>Clearly Not Elmo</em>. Don't trust me. <a href="./about">Read more about my life...</a></p>
+        		<h1>About Robo</h1>
+				<p>This is the part where I share a little bit about myself.</p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
-		<p>Would you care for a tickybox?
-            		<script>
-              			function toggle () {
-              				if (document.getElementById("tickybox").checked) {
-             					document.getElementById("ticky_text").innerHTML="Yay! Tickybox";
-              				} else {
-              					document.getElementById("ticky_text").innerHTML=":-(";
-              				}
-              			}
-            		</script>
-           		<input id="tickybox" type="checkbox" onclick="toggle()" />
-            		<span id="ticky_text"></span>
-          	</p>
 		<footer>
     		<ul>
         		<li><a href="mailto:test@gmail.com">email</a></li>
